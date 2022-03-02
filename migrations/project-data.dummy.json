@@ -32,7 +32,8 @@
               "name": "optimization",
               "children": [{ "name": "AspectRatioBanker", "count": 7074 }]
             }
-          ]
+          ],
+          "status": "completed"
         },
         {
           "name": "animate",
@@ -62,7 +63,8 @@
             { "name": "Transitioner", "count": 19975 },
             { "name": "TransitionEvent", "count": 1116 },
             { "name": "Tween", "count": 6006 }
-          ]
+          ],
+          "status": "in-progress"
         },
         {
           "name": "data",
@@ -83,7 +85,8 @@
             { "name": "DataSource", "count": 3331 },
             { "name": "DataTable", "count": 772 },
             { "name": "DataUtil", "count": 3322 }
-          ]
+          ],
+          "status": "pending"
         },
         {
           "name": "display",
@@ -92,9 +95,14 @@
             { "name": "LineSprite", "count": 1732 },
             { "name": "RectSprite", "count": 3623 },
             { "name": "TextSprite", "count": 10066 }
-          ]
+          ],
+          "status": "pending"
         },
-        { "name": "flex", "children": [{ "name": "FlareVis", "count": 4116 }] },
+        {
+          "name": "flex",
+          "children": [{ "name": "FlareVis", "count": 4116 }],
+          "status": "failed"
+        },
         {
           "name": "physics",
           "children": [
@@ -106,7 +114,8 @@
             { "name": "Simulation", "count": 9983 },
             { "name": "Spring", "count": 2213 },
             { "name": "SpringForce", "count": 1681 }
-          ]
+          ],
+          "status": "completed"
         },
         {
           "name": "query",
@@ -176,7 +185,8 @@
             { "name": "Variable", "count": 1124 },
             { "name": "Variance", "count": 1876 },
             { "name": "Xor", "count": 1101 }
-          ]
+          ],
+          "status": "pending"
         },
         {
           "name": "scale",
@@ -191,7 +201,8 @@
             { "name": "Scale", "count": 4268 },
             { "name": "ScaleType", "count": 1821 },
             { "name": "TimeScale", "count": 5833 }
-          ]
+          ],
+          "status": "in-progress"
         },
         {
           "name": "util",
@@ -236,7 +247,8 @@
             { "name": "Sort", "count": 6887 },
             { "name": "Stats", "count": 6557 },
             { "name": "Strings", "count": 22026 }
-          ]
+          ],
+          "status": "failed"
         },
         {
           "name": "vis",
@@ -372,7 +384,8 @@
               ]
             },
             { "name": "Visualization", "count": 16540 }
-          ]
+          ],
+          "status": "completed"
         }
       ]
     }
@@ -384,7 +397,7 @@
     "data": {
       "name": "PI - Piping",
       "children": [
-        { "name": "Clean", "count": 100 },
+        { "name": "Clean", "count": 100, "status": "completed" },
         {
           "name": "missing data",
           "children": [
@@ -392,9 +405,10 @@
             { "name": "Wolver", "count": 20 },
             { "name": "Tot", "count": 50 },
             { "name": "complete", "count": 100 }
-          ]
+          ],
+          "status": "completed"
         },
-        { "name": "Validation Errors", "count": 100 },
+        { "name": "Validation Errors", "count": 100, "status": "in-progress" },
         {
           "name": "complete",
           "children": [
@@ -407,7 +421,8 @@
                 { "name": "complete", "count": 100 }
               ]
             }
-          ]
+          ],
+          "status": "pending"
         }
       ]
     }
